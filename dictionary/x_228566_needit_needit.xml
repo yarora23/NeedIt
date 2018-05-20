@@ -27,5 +27,6 @@
         <element label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element default="6816f79cc0a8016401c5a33be04be441" label="Requested for" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for Email" mandatory="true" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>

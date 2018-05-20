@@ -15,7 +15,7 @@
   //set the Requested for value to the currently logged in user.
 
     if(g_form.isNewRecord()){
-        g_form.setValue('u_requested_2',g_user.userID);
+        g_form.setValue('u_reference_2',g_user.userID);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b638a6a4f8e1300dc517e918110c741</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NeedIt Set Request For</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_228566_needit">bbd1e4624f4a1300dc517e918110c701</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="NeedIt">bbd1e4624f4a1300dc517e918110c701</sys_scope>
         <sys_update_name>sys_script_client_5b638a6a4f8e1300dc517e918110c741</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-16 12:40:01</sys_updated_on>
+        <sys_updated_on>2018-05-20 07:19:56</sys_updated_on>
         <table>x_228566_needit_needit</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
