@@ -2,7 +2,7 @@
 <record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_model>none</license_model>
@@ -10,7 +10,7 @@
         <menu/>
         <name>NeedIt</name>
         <private>false</private>
-        <restrict_table_access>false</restrict_table_access>
+        <restrict_table_access>true</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_228566_needit</scope>
         <scoped_administration>false</scoped_administration>
@@ -23,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-16 05:23:22</sys_created_on>
         <sys_id>bbd1e4624f4a1300dc517e918110c701</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-16 05:23:22</sys_updated_on>
+        <sys_updated_on>2018-05-21 06:14:21</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
