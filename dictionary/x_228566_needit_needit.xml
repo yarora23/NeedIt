@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_228566_needit_needit" sizeclass="8" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_228566_needit_needit" sizeclass="14" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="New field 2 " max_length="40" name="new_field_2" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_3" type="string">
             <choice>
                 <element label="Human Resource" sequence="0" value="hr"/>
+                <element label="Human Resources" sequence="0" value="Human Resources"/>
                 <element label="Facilities" sequence="1" value="facilities"/>
                 <element label="Legal" sequence="2" value="legal"/>
                 <element label="You department choice" sequence="3" value="you department choice"/>
